@@ -7,7 +7,6 @@ describe('Notification', () => {
       content: new Content('Nova notificação'),
       category: 'social',
       recipientId: '321-id',
-      createdAt: new Date(),
     });
 
     expect(notification).toBeTruthy();
